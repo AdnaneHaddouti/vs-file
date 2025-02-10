@@ -1,0 +1,5 @@
+git remote -v
+git remote set-url origin
+git add
+git commit -m "Message de commit"
+git push -u origin main
