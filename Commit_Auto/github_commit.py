@@ -43,11 +43,9 @@ def auto_commit():
         print(f"❌ Erreur : {e}")
 
 # Planifier le commit chaque jour à 10h00
-schedule.every().day.at("15:33").do(auto_commit)
-
+schedule.every().day.at("16:00").do(auto_commit)
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
-
+# Message de démarrage
 print("Démarrage du script de commit automatique...")
 while True:
     schedule.run_pending()
