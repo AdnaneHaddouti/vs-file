@@ -32,7 +32,7 @@ def auto_commit():
 
             # Push vers GitHub
             origin = repo.remote(name="main")
-            origin.set_url(f"https://{GITHUB_USERNAME}:{GITHUB_TOKEN}@github.com/{GITHUB_USERNAME}/{GITHUB_REPO}.git")
+            origin.set_url(f"https://{GITHUB_USERNAME}:@github.com/{GITHUB_USERNAME}/{GITHUB_REPO}.git")
             origin.push()
             print("🚀 Changements poussés sur GitHub avec succès !")
         else:
