@@ -14,10 +14,11 @@ sys.stdout.reconfigure(encoding='utf-8')
 print("\u23f3 Démarrage du script de commit automatique...")
 
 # Paramètres du dépôt local
-REPO_PATH = r"C:\Users\a.haddouti\Desktop\vs file"  # Remplace par le chemin de ton dépôt local
-GITHUB_USERNAME = "Adnanehaddouti"
-GITHUB_TOKEN = "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"  # Génère un token ici : https://github.com/settings/tokens
-GITHUB_REPO = "vs-file"  # Nom du repo (ex: "mon_projet")
+#REPO_PATH = r"C:\Users\a.haddouti\Desktop\vs file"  # Remplace par le chemin de ton dépôt local
+#GITHUB_USERNAME = "Adnanehaddouti"
+#GITHUB_TOKEN = "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"  # Génère un token ici : https://github.com/settings/tokens
+#GITHUB_REPO = "vs-file"  # Nom du repo (ex: "mon_projet")
+#FILE_NAME = 'README.md'  # Nom du fichier à modifier
 
 def auto_commit():
     try:
